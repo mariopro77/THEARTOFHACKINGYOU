@@ -1,0 +1,40 @@
+{
+  "name": "downloadbook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "cra-template": "1.2.0",
+    "next": "^15.1.5",
+    "postcss": "^8.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
